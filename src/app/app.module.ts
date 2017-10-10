@@ -10,7 +10,8 @@ import {
   MatFormFieldModule,
   MatButtonModule,
   MatButtonToggleModule,
-  MatIconModule
+  MatIconModule,
+  MatSidenavModule
 } from '@angular/material';
 
 import {HeaderComponent} from './header/header.component';
@@ -28,7 +29,7 @@ import {ContentComponent} from './wrapper/content/content.component';
     NavbarComponent,
     WrapperComponent,
     SidebarComponent,
-    ContentComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +41,7 @@ import {ContentComponent} from './wrapper/content/content.component';
     MatInputModule,
     MatButtonModule,
     MatButtonToggleModule,
-
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

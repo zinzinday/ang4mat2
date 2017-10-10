@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: '.app-wrapper',
   templateUrl: './wrapper.component.html',
   styleUrls: ['./wrapper.component.scss']
 })
-export class WrapperComponent implements OnInit {
+export class WrapperComponent {
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor() {
   }
+
+  @Input() sidenavShow: Boolean;
 
 }

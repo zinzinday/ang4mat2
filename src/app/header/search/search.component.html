@@ -1,11 +1,12 @@
-<mat-toolbar color="warn">
+<mat-toolbar class="mat-elevation-z6">
   <form action="/search">
     <mat-form-field class="full-width">
       <span matPrefix><mat-icon>search</mat-icon></span>
       <input matInput="search" type="search" name="q" placeholder="Search for ..."/>
     </mat-form-field>
   </form>
-  <button mat-icon-button class="">
+  <span class="spacer"></span>
+  <button mat-icon-button (click)="hiddenSearch.emit()">
     <mat-icon color="warn">close</mat-icon>
   </button>
 </mat-toolbar>
