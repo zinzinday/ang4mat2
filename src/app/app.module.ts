@@ -20,6 +20,9 @@ import {NavbarComponent} from './header/navbar/navbar.component';
 import {WrapperComponent} from './wrapper/wrapper.component';
 import {SidebarComponent} from './wrapper/sidebar/sidebar.component';
 import {ContentComponent} from './wrapper/content/content.component';
+import { ContentHeaderComponent } from './wrapper/content/content-header/content-header.component';
+import { ContentMainComponent } from './wrapper/content/content-main/content-main.component';
+import { ContentFooterComponent } from './wrapper/content/content-footer/content-footer.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import {ContentComponent} from './wrapper/content/content.component';
     NavbarComponent,
     WrapperComponent,
     SidebarComponent,
-    ContentComponent
+    ContentComponent,
+    ContentHeaderComponent,
+    ContentMainComponent,
+    ContentFooterComponent,
   ],
   imports: [
     BrowserModule,
